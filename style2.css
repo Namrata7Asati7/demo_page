@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://coloncancernewstoday.com/wp-content/uploads/2015/03/shutterstock_248241193.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+:root {
+  --main-color: #e6b30e;
+}
+.act,
+.navbar ul li a:hover {
+  color: var(--main-color) !important;
+  border: 1px solid var(--main-color);
+}
+.theme-text {
+  color: var(--main-color) !important;
+}
+
+svg.wave {
+  position: absolute;
+  bottom: -70px;
+}
+.middle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80vh;
+  width: 70%;
+}
+.middle h1 {
+  font-size: 70px;
+}
+
+.az{
+    font-size:xx-large;
+    text-decoration: line-through;
+    color: #e6b30e;
+    box-shadow: inset;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+}
+
+.icon{
+    margin: 50px;
+    margin-right: 4px;
+    font-size: 50px;
+    color: red;
+}
+
+#services{
+    background-color: rgb(2, 2, 27);
+    padding: 25px;
+}
+
+.card-body{
+    background-color: #e6b30e;
+}
+
+footer{
+    background-color: #e6b30e;
+}
+
+i {
+  font-size: 30px;
+  margin: 5px;
+}
+
+i:hover{
+  font-size: 40px;
+  color:  rgb(2, 2, 27) ;
+}
